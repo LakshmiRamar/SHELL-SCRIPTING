@@ -1,0 +1,5 @@
+#!/bin/bash
+
+#this is how we comment
+NAME="LAKSHMI "
+echo "My name is "${NAME}PRIYA
