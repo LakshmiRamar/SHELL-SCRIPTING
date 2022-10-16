@@ -1,0 +1,17 @@
+#!/bin/bash
+#author- Lakshmi
+#date- 16/10/2022
+#Description: This script will pull only error from /var/log/auth.log
+
+grep -i error /root/prof-scripts/auth.log > /root/prof-scripts/erroroutput
+=============================================================
+
+#!/bin/bash
+#author: Lakshmi
+#Description: Format the output of admin commands
+#date: 16/10/22
+
+
+date | awk '{print $1}'
+uptime | awk '{print $3}'
+df -h | grep "root"
