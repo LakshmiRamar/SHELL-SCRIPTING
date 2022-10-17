@@ -1,0 +1,1 @@
+05 02 * * *  /root/ps/pingall.sh | mail -s "connectivity status" priya.ramarnsm@gmail.com
